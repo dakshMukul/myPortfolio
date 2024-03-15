@@ -6,10 +6,10 @@ function Footer() {
       <div>
         <ul className="flex gap-4 text-2xl">
           <li>
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </li>
           <li>
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </li>
         </ul>
       </div>

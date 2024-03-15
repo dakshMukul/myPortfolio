@@ -1,4 +1,4 @@
-import { coverPic, dp, verify } from "../assets";
+import { dp, verify } from "../assets";
 import { motion } from "framer-motion";
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
       </div>
       {/* Profile Picture */}
       <div className="profile-picture absolute top-[16vh] sm:top-[28vh] left-[20%] sm:left-[20%] md:left-[15%]  transform -translate-x-1/2 border-4 border-black rounded-full w-32 h-32 sm:w-36 sm:h-36 overflow-hidden">
-        <img src={dp} alt="Profile Picture" />
+        <img src={dp} alt="ProfilePicture" />
       </div>
       {/* Follow Button */}
       <button className="follow-button absolute top-[28vh] sm:top-[45vh]  right-[8%] bg-pink-400 rounded-full px-2">
@@ -30,7 +30,7 @@ const Header = () => {
               className="absolute top-0 left-48 w-6 h-6"
               animate={{ x: [0, 100, 0] }}
             >
-              <img src={verify} />
+              <img src={verify} alt="verifiyLogo" />
             </motion.div>
           </h1>
           <p>Brings ideas to life with code! ✨</p>
@@ -42,19 +42,19 @@ const Header = () => {
         <div className="text-sm py-4">
           <ul className="flex flex-wrap gap-2 sm:gap-4">
             <li>
-              <i class="fa-solid fa-briefcase m-1"></i>
+              <i className="fa-solid fa-briefcase m-1"></i>
               Available
             </li>
             <li>
-              <i class="fa-solid fa-link m-1"></i>
+              <i className="fa-solid fa-link m-1"></i>
               Links
             </li>
             <li>
-              <i class="fa-regular fa-calendar-days m-1"></i>
+              <i className="fa-regular fa-calendar-days m-1"></i>
               Joined March 2024
             </li>
             <li>
-              <i class="fa-solid fa-cake-candles m-1"></i>
+              <i className="fa-solid fa-cake-candles m-1"></i>
               March 28th
             </li>
           </ul>

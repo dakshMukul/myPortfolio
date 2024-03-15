@@ -1,8 +1,6 @@
 import React from "react";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
-import { github, websitesLogo } from "../assets/";
+import { github } from "../assets/";
 import { projects } from "../constants";
 
 const ProjectCard = ({

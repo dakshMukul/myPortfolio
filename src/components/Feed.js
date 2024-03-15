@@ -11,7 +11,7 @@ function Feed() {
         >
           <div className="flex gap-2 ">
             <div className="dp-container rounded-full w-10 h-10 sm:w-12 sm:h-12 overflow-hidden">
-              <img src={post.dp} alt="Profile Picture" />
+              <img src={post.dp} alt="ProfilePicture" />
             </div>
             <div className="">
               <h1 className="mb-1 text-lg font-semibold">Mukul Singh✨</h1>
@@ -32,19 +32,19 @@ function Feed() {
               ))}
             </div>
             <div className="post-img rounded-lg overflow-hidde sm:max-w-96 m-auto">
-              <img className="" src={post.postImg} />
+              <img className="" src={post.postImg} alt="postImage" />
             </div>
 
             <div className="links container border-t-2 p-2">
               <ul className="flex justify-around">
                 <li className=" cursor-pointer">
-                  <i class="fa-regular fa-heart mr-2"></i> Like
+                  <i className="fa-regular fa-heart mr-2"></i> Like
                 </li>
                 <li className="cursor-pointer">
-                  <i class="fa-regular fa-message mr-2"></i>Comment
+                  <i className="fa-regular fa-message mr-2"></i>Comment
                 </li>
                 <li className="cursor-pointer">
-                  <i class="fa-solid fa-share mr-2"></i>Share
+                  <i className="fa-solid fa-share mr-2"></i>Share
                 </li>
               </ul>
             </div>

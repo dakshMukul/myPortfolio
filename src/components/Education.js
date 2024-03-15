@@ -9,9 +9,9 @@ const Education = () => {
         <h2 className="text-lg font-bold">Education.</h2>
       </motion.div>
       <div className="timeline relative flex flex-col pb-8">
-        {education.map((element) => {
+        {education.map((element, index) => {
           return (
-            <div key={element.id} className="flex m-2 relative">
+            <div key={element.id || index} className="flex m-2 relative">
               <div className="hidden sm:flex items-start w-48 pt-1 relative ">
                 <div className="w-full text-gray-500 text-[11px] mt-4">
                   {element.date}

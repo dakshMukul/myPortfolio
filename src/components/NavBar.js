@@ -11,7 +11,7 @@ const NavBar = () => {
           <li
             key={nav.id}
             className={`${
-              active == nav.title
+              active === nav.title
                 ? "text-black border-b-2 border-pink-400"
                 : "text-gray-500"
             } cursor-pointer hover:bg-gray-100 w-1/4 text-center p-2`}
