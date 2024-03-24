@@ -7,7 +7,6 @@ import {
   reactjs,
   tailwind,
   moviesapp,
-  CheckWeather,
   educationLogo,
   post1,
   awsCertificate,

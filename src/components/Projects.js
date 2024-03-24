@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { github } from "../assets/";
 import { projects } from "../constants";
-import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
