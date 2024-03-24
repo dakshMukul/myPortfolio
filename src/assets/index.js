@@ -33,8 +33,10 @@ import verify from "./verify.png";
 import educationLogo from "../assets/education-logo.png";
 import awsCertificate from "../assets/awsCertificate.png";
 import fullStackCertificate from "../assets/fullStackCertificate.jpg";
+import foodProject from "./foodProject.png";
 
 export {
+  foodProject,
   educationLogo,
   backend,
   creator,

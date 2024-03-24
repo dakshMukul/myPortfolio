@@ -13,6 +13,7 @@ import {
   awsCertificate,
   fullStackCertificate,
   dp,
+  foodProject,
 } from "../assets";
 
 const navLinks = [
@@ -135,19 +136,20 @@ const projects = [
       },
     ],
     image: moviesapp,
-    source_code_link: "https://github.com/dakshMukul/MoviesOnTip",
+    source_code_link: "",
+    live_link: "",
   },
   {
-    name: "Weather App",
+    name: "Foodie Hunter",
     description:
-      "This weather app will show the weather information for a specific city. User should be able to get the weather information for any valid cities",
+      "Foodie Haven is your go-to food website, crafted with HTML, CSS, and JavaScript. Explore a diverse range of delicious food options, add multiple items to your cart with ease, and seamlessly manage your selections for a hassle-free ordering experience.",
     tags: [
       {
         name: "Vanilla js",
         color: "blue-text-gradient",
       },
       {
-        name: "Fetch API",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
@@ -155,8 +157,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: CheckWeather,
-    source_code_link: "https://dakshmukul.github.io/CheckWeather/",
+    image: foodProject,
+    source_code_link: "https://github.com/dakshMukul/Foodie-Hunter",
+    live_link: "https://foodie-hunterr.netlify.app/",
   },
 ];
 

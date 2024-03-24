@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { github } from "../assets/";
 import { projects } from "../constants";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -10,6 +11,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div
@@ -47,6 +49,7 @@ const ProjectCard = ({
               whileHover={{ scale: 1.2 }}
               onHoverStart={(e) => {}}
               onHoverEnd={(e) => {}}
+              onClick={() => window.open(live_link, "_blank")}
             >
               Demo link
             </motion.button>
